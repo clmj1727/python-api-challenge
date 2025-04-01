@@ -34,15 +34,8 @@ To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve 
 
 - Latitude vs. Wind Speed
 
-<p  align="right">(<a  href="#readme-top">back to top</a>)</p>
-
 ### Requirement 2: Compute Linear Regression for Each Relationship
 You should create the following plots:
-
-<p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/main/Images/python-api.Req2.png" alt="python-api Requirement 2" width="700">
-</p>
-
 
 - Northern Hemisphere: Temperature vs. Latitude
 
@@ -97,17 +90,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 <!-- BUILT-WITH-PYTHON-AND-JUPYTER-FRAMEWORK -->
 ## Built with Python and Jupyter Notebook Framework 
 
-Python Citipy Library, OpenWeatherMapAPI, and Juypter Notebook platform was the framework used for this project.
-
-<!-- LICENSE -->
-
-## License
-
-  
-
-Distributed under the MIT License. See `LICENSE.txt` for more information.
-
-  
+Geoapify, OpenWeatherMapAPI, and Juypter Notebook platform was the framework used for this project.
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
