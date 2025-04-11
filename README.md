@@ -1,95 +1,24 @@
 <h1  align="center">Python API Challenge</h1>
 <a name="readme-top"></a>
 
-## About The Project
+## Summary
+In this challenge, the goal is to use Python to analyze weather data and plan vacations. By leveraging the OpenWeatherMap API, citipy library, and Geoapify API, the project explores how weather changes with latitude and uses this data to identify ideal vacation destinations.
 
-### Background
+## Overview
 
-Data's true power is its ability to definitively answer questions. So, let's take what you've learned about Python requests, APIs, and JSON traversals to answer a fundamental question: "What is the weather like as we approach the equator?"
+### WeatherPy
+In **WeatherPy**, the objective is to:
+1. **Retrieve weather data** for over 500 cities using the OpenWeatherMap API.
+2. **Create scatter plots** to demonstrate how weather variables like temperature, humidity, cloudiness, and wind speed vary with latitude.
+3. **Compute linear regression** for each weather variable to identify trends in both the Northern and Southern Hemispheres.
 
-Now, we know what you may be thinking: “That’s obvious. It gets hotter.” But, if pressed for more information, how would you prove that?
+### VacationPy
+In **VacationPy**, the goal is to:
+1. **Visualize cities** on a map, with city size representing humidity levels.
+2. **Filter cities** based on ideal weather conditions, such as temperature, wind speed, and cloudiness.
+3. **Identify hotels** near the selected cities using the Geoapify API and display them on the map.
 
-### Instructions
-
-This activity is broken down into two deliverables, WeatherPy and VacationPy.
-
-### Part 1: WeatherPy
-
-In this deliverable, you'll create a Python script to visualize the weather of over 500 cities of varying distances from the equator. You'll use the citipy Python libraryLinks to an external site., the OpenWeatherMap APILinks to an external site., and your problem-solving skills to create a representative model of weather across cities.
-
-For this part, you'll use the WeatherPy.ipynb Jupyter notebook provided in the starter code ZIP file. The starter code will guide you through the process of using your Python coding skills to develop a solution to address the required functionalities.
-
-To get started, the code required to generate random geographic coordinates and the nearest city to each latitude and longitude combination is provided.
-
-### Requirement 1: Create Plots to Showcase the Relationship Between Weather Variables and Latitude
-To fulfill the first requirement, you'll use the OpenWeatherMap API to retrieve weather data from the cities list generated in the starter code. Next, you'll create a series of scatter plots to showcase the following relationships:
-
-- Latitude vs. Temperature
-
-- Latitude vs. Humidity
-
-- Latitude vs. Cloudiness
-
-- Latitude vs. Wind Speed
-
-### Requirement 2: Compute Linear Regression for Each Relationship
-You should create the following plots:
-
-- Northern Hemisphere: Temperature vs. Latitude
-
-- Southern Hemisphere: Temperature vs. Latitude
-
-- Northern Hemisphere: Humidity vs. Latitude
-
-- Southern Hemisphere: Humidity vs. Latitude
-
-- Northern Hemisphere: Cloudiness vs. Latitude
-
-- Southern Hemisphere: Cloudiness vs. Latitude
-
-- Northern Hemisphere: Wind Speed vs. Latitude
-
-- Southern Hemisphere: Wind Speed vs. Latitude
-
-After each pair of plots, explain what the linear regression is modeling. Describe any relationships that you notice and any other findings you may uncover.
-
-### Part 2: VacationPy
-
-In this deliverable, you'll use your weather data skills to plan future vacations. Also, you'll use Jupyter notebooks, the geoViews Python library, and the Geoapify API.
-
-The code needed to import the required libraries and load the CSV file with the weather and coordinates data for each city created in Part 1 is provided to help you get started.
-
-Your main tasks will be to use the Geoapify API and the geoViews Python library and employ your Python skills to create map visualizations.
-
-To succeed on this deliverable of the assignment, open the VacationPy.ipynb starter code and complete the following steps:
-
-1. Create a map that displays a point for every city in the city_data_df DataFrame as shown in the following image. The size of the point should be the humidity in each city.
-   
-
-<p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/402cf027eac9a24ef8fcca7f3594a940c556ba0f/output_data/humidity_map.html" alt="python-api Humidity map" width="700">
-</p>
-
-
-  
-2. Narrow down the city_data_df DataFrame to find your ideal weather condition. For example:
-
-- A max temperature lower than 27 degrees but higher than 21
-
-- Wind speed less than 4.5 m/s
-
-- Zero cloudiness
-
-<p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/402cf027eac9a24ef8fcca7f3594a940c556ba0f/output_data/hotel_map.html" alt="python-api Hotel Map" width="700">
-</p>
-  
-  
-## Built with Python and Jupyter Notebook Framework 
-
-Geoapify, OpenWeatherMapAPI, and Juypter Notebook platform was the framework used for this project.
-
----
+This project provides hands-on experience with API usage, data visualization, and applying data analysis to real-world problems like vacation planning.
 
 # Acknowledgements:
 
