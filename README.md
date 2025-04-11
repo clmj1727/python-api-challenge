@@ -1,8 +1,5 @@
 <h1  align="center">Python API Challenge</h1>
 <a name="readme-top"></a>
-
-<!-- ABOUT THE PROJECT -->
-
 ## About The Project
 
 ### Background
@@ -69,7 +66,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
    
 
 <p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/73e26ed8c64b597a5cb4d7ae0f5ca7600cfa2bf3/Images/python-api.Vacationpy1.png" alt="python-api VacationPy Output 1" width="700">
+  <img src="https://github.com/clmj1727/python-api-challenge/blob/main/output_data/humidity_map.html" alt="python-api Humidity map" width="700">
 </p>
 
 
@@ -83,14 +80,23 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 - Zero cloudiness
 
 <p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/73e26ed8c64b597a5cb4d7ae0f5ca7600cfa2bf3/Images/python-api.Vacationpy2.png" alt="python-api VacationPy Output 2" width="700">
+  <img src="https://github.com/clmj1727/python-api-challenge/blob/main/output_data/hotel_map.html" alt="python-api Hotel Map" width="700">
 </p>
   
   
-<!-- BUILT-WITH-PYTHON-AND-JUPYTER-FRAMEWORK -->
 ## Built with Python and Jupyter Notebook Framework 
 
 Geoapify, OpenWeatherMapAPI, and Juypter Notebook platform was the framework used for this project.
+
+---
+
+# Acknowledgements:
+
+Special thanks to Dr. Carl Arrington for guidance during the Python APIs Module. Some snippets and logic were developed following in-class tutorial support and discussions on the following topics: 
+- APIs
+- Working with Weather and City APIs
+- APIs and Geospatial Data Visualization 
+
 
 <p  align="right">(<a  href="#readme-top">back to top</a>)</p>
 
