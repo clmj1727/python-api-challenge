@@ -1,5 +1,6 @@
 <h1  align="center">Python API Challenge</h1>
 <a name="readme-top"></a>
+
 ## About The Project
 
 ### Background
@@ -66,7 +67,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
    
 
 <p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/main/output_data/humidity_map.html" alt="python-api Humidity map" width="700">
+  <img src="https://github.com/clmj1727/python-api-challenge/blob/402cf027eac9a24ef8fcca7f3594a940c556ba0f/output_data/humidity_map.html" alt="python-api Humidity map" width="700">
 </p>
 
 
@@ -80,7 +81,7 @@ To succeed on this deliverable of the assignment, open the VacationPy.ipynb star
 - Zero cloudiness
 
 <p align="center">
-  <img src="https://github.com/clmj1727/python-api-challenge/blob/main/output_data/hotel_map.html" alt="python-api Hotel Map" width="700">
+  <img src="https://github.com/clmj1727/python-api-challenge/blob/402cf027eac9a24ef8fcca7f3594a940c556ba0f/output_data/hotel_map.html" alt="python-api Hotel Map" width="700">
 </p>
   
   
